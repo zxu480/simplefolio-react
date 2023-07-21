@@ -17,7 +17,7 @@ const About = () => {
             height={300}
             />
         </div>
-        <div className="pt-8 md:py-0 md:w-1/2 text-white md:ml-4 text-center md:text-left">
+        <div className="pt-8 md:py-0 md:w-1/2 text-white md:ml-4 text-center md:text-left justify-center content-center">
           <div className="about__primary">
             <span>{about.primary}</span>
           </div>
