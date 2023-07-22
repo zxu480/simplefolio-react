@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from "@formspree/react";
 import config from "../index.json";
 
 function ContactForm() {
@@ -10,12 +10,12 @@ function ContactForm() {
 
   const [state, handleSubmit] = useForm(contact.formId);
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+    return <p>Thanks for joining!</p>;
   }
 
   return (
     <div className="w-full sm:w-full md:w-3/4 lg:w-1/2 mt-16 mx-auto">
-      <form 
+      {/* <form 
         onSubmit={handleSubmit} 
         action={`https://formspree.io/f/${contact.formId}`}
         method="post" 
@@ -81,7 +81,8 @@ function ContactForm() {
           </div>
         </button>
         </div>
-      </form>
+      </form> */}
+      <div className="flex items-center justify-center" >123</div>
     </div>
   );
 }

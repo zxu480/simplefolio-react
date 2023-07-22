@@ -9,7 +9,7 @@ const About = () => {
       <h1 className="pt-12 uppercase font-bold text-center text-white text-bold text-4xl">{about.title}</h1>
       <div className="mt-16 flex flex-col md:flex-row align-center items-center">
         <div className="w-1/2 flex justify-center content-center">
-          <Image 
+          <img 
             src={about.image} 
             alt="about" 
             className="shadow-lg" 
@@ -25,7 +25,7 @@ const About = () => {
             <span>{about.secondary}</span>
           </div>
           <div className="mt-6 mx-auto md:mx-0 border-2 border-white py-1 px-2 w-36 text-center font-bold">
-            <a href={'#'} className="about__resume text-white text-l">View Resume</a>
+            <a href={'./resume.pdf'} className="about__resume text-white text-l">View Resume</a>
           </div>
         </div>
       </div>

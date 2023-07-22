@@ -7,10 +7,6 @@
 		{
 			"title": "Projects",
 			"url": "http://www.example.com/portfolio"
-		},
-		{
-			"title": "Contact",
-			"url": "http://www.example.com/contact"
 		}
 	],
   "hero": {
@@ -19,9 +15,9 @@
   },
   "about": {
     "title": "About me",
-    "image": "/placeholder.png",
-    "primary": "Hello, I'm Elvin, an experienced front-end/full-stack developer with a passion for crafting modern web applications. Proficient in JavaScript/TypeScript, React, Redux, and Next.js, I create intuitive and responsive user interfaces. Let's connect and explore my work together!",
-    "secondary": "Extra Information about you! like hobbies and your goals."
+    "image": "/photo_s.jpg",
+    "primary": "Hello, I'm Elvin, an experienced front-end/full-stack developer with 5 years of expertise in crafting modern web applications. Proficient in JavaScript/TypeScript, React, Redux, and Next.js, I take pride in creating intuitive and visually appealing user interfaces. My journey in this dynamic field has been filled with exciting challenges, innovative solutions, and a commitment to delivering high-quality results.",
+    "secondary": "Let's connect and explore my work together!"
   },
   "projects": {
     "title": "Projects",
@@ -29,17 +25,17 @@
       {
         "title": "Micro Center Inventory Management System",
         "description": "The Inventory Center project at Micro Center focused on developing a robust and efficient inventory management system. It provides a comprehensive solution that enables effective tracking, analysis, and optimization of inventory across multiple locations and departments.",
-        "image": "/placeholder-700x350.png"
+        "image": "/micro_center.png"
       },
       {
 				"title": "Tencent Cloud Virtual Machine Console System",
 				"description": "The Tencent Cloud Virtual Machine (CVM) Console System is a console platform for managing virtual machines in the Tencent Cloud environment. This a comprehensive and user-friendly interface for users to easily provision, configure, monitor, and manage their virtual machines, empowering them with full control over their cloud infrastructure.",
-				"image": "/placeholder-700x350.png"
+				"image": "/cvm.png"
 			},
       {
 				"title": "Decentral Technology Bit Chain",
 				"description": "This project is a blockchain-based solution for secure data storage and traceability. It aims to provide a decentralized and immutable ledger system that ensures data integrity and transparency. The project leverages blockchain technology to enable secure and tamper-proof storage of digital assets while providing traceability throughout their lifecycle.",
-				"image": "/placeholder-700x350.png"
+				"image": "/bitchain.webp"
 			}
     ]
   },

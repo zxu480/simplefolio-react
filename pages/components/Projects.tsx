@@ -15,10 +15,13 @@ const Projects = () => {
                 <h2 className="text-2xl">
                   {item.title}
                 </h2>
-                <p className="mt-6">
+                <p className="mt-6" style={{
+                  fontFamily: "Montserrat,sans-serif",
+                  color: "#4a5568",
+                }}>
                   {item.description}
                 </p>
-                <div className="flex mt-4">
+                {/* <div className="flex mt-4">
                   <div className="text-md text-center font-semibold p-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
                     <a href={item.url} target="_blank" rel="noreferrer">
                       <div className="bg-white">
@@ -35,13 +38,17 @@ const Projects = () => {
                       </span>
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="lg:ml-12">
-                <Image 
+                <img 
                   src={item.image} 
                   alt="project image" 
                   className="mt-6 md:mt-12 lg:mt-0 w-full shadow-lg" 
+                  style={{
+                    width: 700,
+                    objectFit: 'cover'
+                  }}
                   width={700} 
                   height={350}
                 />
